@@ -1,0 +1,14 @@
+# Build results
+dist/
+
+# Others
+~$*
+*~
+node_modules/
+src/build/
+coverage/
+*-debug.log
+**.DS_Store
+
+# Rollup
+.rpt2_cache

@@ -1,0 +1,23 @@
+
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "ES2015",
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "lib": [
+      "es2015",
+      "es6",
+      "dom",
+      "es2017.object"
+    ],
+    "sourceMap": true,
+    "outDir": "./dist/",
+    "baseUrl": "."
+  }
+}

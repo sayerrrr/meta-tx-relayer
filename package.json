@@ -1,0 +1,21 @@
+{
+  "name": "@sayerrrr/meta-tx-relay",
+  "version": "1.0.0",
+
+  "private": true,
+  "scripts": {},
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/@graphprotocol/graph-ts",
+      "**/@graphprotocol/graph-ts/**",
+      "**/hardhat",
+      "**/hardhat/**"
+    ]
+  },
+  "dependencies": {
+    "typescript": "^4.3.5"
+  }
+}
